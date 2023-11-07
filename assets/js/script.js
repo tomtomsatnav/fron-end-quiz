@@ -10,9 +10,34 @@ const initialsInput = document.getElementById('initials');
 
 const quizData = [
   {
-    question: 'What is HTML?',
-    choices: ['Hypertext Markup Language', 'Hyper Transfer Markup Language', 'Hyperlink and Text Markup Language'],
-    correctAnswer: 'Hypertext Markup Language',
+    question: 'What does CSS stand for?',
+    choices: ['Cascading Style Sheet', 'Computer Style Sheet', 'Colorful Style Sheet'],
+    correctAnswer: 'Cascading Style Sheet',
+  },
+  {
+    question: 'Which HTML element is used to link an external CSS file?',
+    choices: ['<link>', '<style>', '<css>', '<script>'],
+    correctAnswer: '<link>',
+  },
+  {
+    question: 'What is the purpose of JavaScript?',
+    choices: ['To style web pages', 'To add interactivity to web pages', 'To create web page layouts'],
+    correctAnswer: 'To add interactivity to web pages',
+  },
+  {
+    question: 'How do you declare a JavaScript variable?',
+    choices: ['var', 'variable', 'int', 'string'],
+    correctAnswer: 'var',
+  },
+  {
+    question: 'Which HTML tag is used to create an ordered list?',
+    choices: ['<ol>', '<ul>', '<li>', '<dl>'],
+    correctAnswer: '<ol>',
+  },
+  {
+    question: 'What does the acronym DOM stand for?',
+    choices: ['Document Object Model', 'Data Object Model', 'Dynamic Object Model', 'Digital Object Model'],
+    correctAnswer: 'Document Object Model',
   },
 ];
 
